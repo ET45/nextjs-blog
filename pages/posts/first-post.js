@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 
 export default function firstPost() {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>First post</title>
         <Script
@@ -20,6 +20,6 @@ export default function firstPost() {
           <a>Back Home</a>
         </Link>
       </h2>
-    </div>
+    </Layout>
   );
 }
